@@ -7,8 +7,7 @@ export const DomainsList = ({domains}) => {
       {console.log(domains)}
       {domains && domains.map((domain, index)=>{
         return(
-          <DomainsListItem domain={domain} key={index} />
-        )
+          <DomainsListItem domain={domain} key={index} />        )
       })}
     </div>
   )
